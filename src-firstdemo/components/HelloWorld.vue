@@ -1,0 +1,22 @@
+<template>
+  <div id="">
+    <h2 class="title">{{msg}}</h2>
+  </div>
+</template>
+
+<script>
+  export default {
+    data(){
+      return{
+        msg:'第一个vue组件'
+      }
+    }
+  }
+</script>
+
+<style scoped>
+  .title{
+    color: skyblue;
+    background: aqua;
+  }
+</style>
